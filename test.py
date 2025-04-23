@@ -1,16 +1,14 @@
-import random
-x = random.randint(1, 500)
-print("========")
-print("เฉลย =",x)
-print("========")
+import turtle
+t = turtle.Turtle()
 while True:
-    num = int(input("ใส่เลข: "))
-    if num == x:
-        break
-    elif num>=x:
-        print("มากไป")
-    elif num<=x:
-        print("น้อยไป")
-    else:
-        print("ลองใหม่")
-print("ถูกต้อง")
+    t.speed(10000)  # Set the speed to the fastest
+    t.forward(100)
+    t.right(90)
+    t.forward(100)
+    t.right(90)
+    t.forward(100)
+    t.right(90)
+    t.forward(100)
+    t.right(90)
+    t.right(1)  # Rotate the square slightly to create a spiral effect
+    t.right(1)  # Rotate the square slightly to create a spiral effect
