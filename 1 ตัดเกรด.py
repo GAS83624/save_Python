@@ -1,5 +1,5 @@
 #โปรแกรมตัดเกรด
-score = int(input("กรอกคะแนนของคุณ : "))
+score = int(input("กรอกคะแนนของคุณ: "))
 grade = None
 
 if score >= 80 and score <= 100:#80-100
