@@ -2,7 +2,7 @@ import random
 
 x = random.randint(1, 1000)
 print("========")
-print("เฉลย =",x)
+print("เฉลยคำตอบ =",x)
 print("========")
 while True:
     num = int(input("Guess the number between 1 and 1000: "))
