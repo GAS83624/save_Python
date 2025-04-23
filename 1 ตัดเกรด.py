@@ -9,6 +9,6 @@ elif score >= 70 and score <= 79:#70-79
 elif score >=50 and score <= 69:#50-69
     grade ="F"
 else:
-    grade = "ได้เรียนไหม"
+    grade = "ได้เรียนบ้างไหม"
 
 print("เกรดของคุณ =",grade)

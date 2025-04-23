@@ -13,4 +13,4 @@ while True:
         print("น้อยไป")
     else:
         print("ลองใหม่")
-print("ถูก")
+print("ถูกต้อง")
